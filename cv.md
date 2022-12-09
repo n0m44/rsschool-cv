@@ -4,12 +4,12 @@
 
 ---
 ## Little bit about myself
-Hi, i'm 22 y.o., and i'm newbie in a web development. In oldest time i'm studied C++\C# to incarnate my ideas. Now i'm just a student of college and RS.School courses. "If you want to do something, do it yourself" and "You can always do better".
+Hi, i'm 22 y.o., and i'm newbie in a web development. In oldest time i've studied C++\C# to incarnate my ideas. Now i'm just a student of college and RS.School courses. I adhere to the principles: "If you want to do something, do it yourself" and "You can always do better".
 
 ---
 ## Education
-+ In 2018 finished school
-+ 2021 - now i'm student of URPET
++ 2018 - school graduation
++ 2021 - now i'm student of UIEC (Ural Industrial and Economic College)
 
 ---
 ## Skills
@@ -25,4 +25,3 @@ Hi, i'm 22 y.o., and i'm newbie in a web development. In oldest time i'm studied
 ## Languages
 + English - B1
 + Russian - native
-
