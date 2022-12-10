@@ -18,11 +18,6 @@ Hi, i'm 22 y.o., and i'm newbie in a web development. In oldest time i've studie
 
 ## Code example - classic ascending bubble sort
 ```
-/**
- * Clone your array and ascending sort them by bubble sort
- * @param {[number]} array unsorted numbers array
- * @return {[number]} ascending sorted array
- */
 function ascendingBubbleSort([...array]){
   let needToRepeatSort = true 
   
