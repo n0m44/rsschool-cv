@@ -6,5 +6,88 @@
         <title>title</title>
     </head>
     <body>
+        <nav class="menu">
+            <a href="#about">about</a>
+            <a href="#skills">skills</a>
+            <a href="#instrumentary">instrumentary</a>
+            <a href="#code-example">code example</a>
+            <a href="#education">education</a>
+            <a href="#languages">languages</a>
+        </nav>
+        <main class="background-canvas-block">
+            <header id="about" class="about">
+                <img class="avatar" src="https://static.vecteezy.com/system/resources/previews/007/301/314/large_2x/flat-cartoon-character-illustration-boy-people-icon-man-portrait-avatar-head-slavic-user-for-web-sites-and-applications-stock-design-white-skin-brown-hair-vector.jpg" alt="just a png avatar">
+                <div class="about-information">
+                    <p class="header name">gleb&nbsp;mararash</p>
+                    <div class="description description-about">hi, i'm 22 y.o., and i'm newbie in a web development. in oldest time i've studied c++\c# to incarnate my ideas. now i'm just a student of college and rs.school courses. i adhere to the principles: <b>"if you want to do something, do it yourself"</b> and <b>"you can always do better"</b>.</div>
+                </div>
+            </header>
+            <div id="skills" class="info-block"> 
+                <p class="header">skills</p>
+                <div class="description">
+                    <ul>
+                        <li>javascript</li>
+                        <li>html5, css3</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="instrumentary" class="info-block"> 
+                <p class="header">instrumentary</p>
+                <div class="description">
+                    <ul>
+                        <li>javascript</li>
+                        <li>html5, css3</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="code-example" class="info-block"> 
+                <p class="header">code example</p>
+                <div class="description">
+                    <pre>
+                        <code>
+function ascendingBubbleSort([...array]){
+    let needToRepeatSort = true 
+    
+    while (needToRepeatSort){
+  
+      needToRepeatSort = false 
+      for (let i = 1, length = array.length; i &lt; length; i++){
+        const previousNumber = array[i-1]
+        const currentNumber = array[i]
+  
+        if (previousNumber > currentNumber){
+          array[i-1] = currentNumber
+          array[i] = previousNumber
+          needToRepeatSort = true
+        }
+      }
+    }
+    return array
+  }
+                        </code>
+                    </pre>
+                </div>
+            </div>
+            <div id="education" class="info-block"> 
+                <p class="header">education</p>
+                <div class="description">
+                    <ul>
+                        <li>2018 - school graduation</li>
+                        <li>2021 - now i'm student of UIEC (Ural Industrial and Economic College)</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="languages" class="info-block"> 
+                <p class="header">languages</p>
+                <div class="description">
+                    <ul>
+                        <li>English - B1</li>
+                        <li>Russian - native</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
     </body>
 </html>

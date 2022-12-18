@@ -1,3 +1,135 @@
-body{
-    background-color: rgba(0,0,0,0);
+:root{
+    --header-white-color: #FFF;
+    --header-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --header-background-color: #000;
+    --allias-box-shadow: 10px 10px 5px rgba(92, 0, 0, 0.148);
+    --header-font-variant: small-caps;
+    --canvas-background-color: rgb(200, 200, 200);
+    --page-background-color: rgb(255, 255, 255);
+    --header-max-width-percent: 60%;
+    --description-background-color: rgb(255, 255, 255);
+    --description-padding: 10px 15px 10px 15px;
+    --description-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --description-font-variant: small-caps;
+}
+html{
+    background-color: var(--page-background-color);
+}
+.menu{
+    display: inline;
+    height: 101%;
+    position: fixed;
+    left: 0px;
+    top: -1px;
+    width: 10%;
+    background-color: var(--header-background-color);
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu a{
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    font-family: var(--header-font-family);
+    font-variant: var(--header-font-variant);
+    line-height: 30px;
+    background-color: var(--description-background-color);
+    margin: 15px 10px 0px 10px;
+    width: 80%;
+    box-shadow: 2px 2px 15px rgb(147, 147, 147);
+    color: black;
+    font-weight: bold;
+}
+.menu a:hover{
+    animation: 0.5s forwards alternate to-black-background;
+}
+@keyframes to-black-background {
+    0%{
+
+    }
+    100%{
+        background-color: rgba(92, 0, 0, 0.148);
+        color: white;
+    }
+}
+
+.background-canvas-block{
+    position:absolute;
+    background-color: var(--canvas-background-color);
+    align-self: center;
+    max-width: 80%;
+    width: 80%;
+    left: 10%;
+    top: 0;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+.about{
+    margin: 50px 20px 50px 50px;
+}
+.avatar{
+    display: inline;
+    max-height: 30%;
+    max-width: 30%;
+    position: relative;
+    height: auto;
+    box-shadow: var(--allias-box-shadow);
+    background-color: var(--background-color);
+}
+.about-information{
+    vertical-align: top;
+    display: inline-block;
+    max-width: 60%; 
+    padding: 0px;
+}
+.header{
+    margin: 0px;
+    font-variant: var(--header-font-variant);
+    color: var(--header-white-color);
+    font-family: var(--header-font-family);
+    background-color: var(--header-background-color);
+    max-width: var(--header-max-width-percent);
+    width: var(--header-max-width-percent);
+    padding-top: 10px;
+    box-shadow: var(--allias-box-shadow);
+}
+.name{
+    margin-left: 20px;
+    font-size: 40pt;
+    max-width: 100%;
+    width: 100%;
+}
+.description{
+    max-width: 100%;
+    background-color: var(--description-background-color);
+    padding: var(--description-padding);
+    font-family: var(--description-font-family);
+    box-shadow: var(--allias-box-shadow);
+    font-variant: var(--description-font-variant);
+    font-size: 25pt;
+    box-sizing: border-box;
+}
+.description-about{
+    max-width: 100%;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.info-block{
+    margin: 50px 50px 50px 50px;
+    box-sizing: border-box;
+}
+.info-block .header{
+    padding-left: 10px;
+    font-size: 40pt;
+    max-width: 50%;
+    width: 50%;
+}
+pre {
+    font-family: none;
+    font-variant: none;
+    font-size: medium;
 }
