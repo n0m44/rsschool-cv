@@ -36,6 +36,7 @@ html{
     background-color: var(--description-background-color);
     margin: 15px 10px 0px 10px;
     width: 80%;
+    max-width: 80%;
     box-shadow: 2px 2px 15px rgb(147, 147, 147);
     color: black;
     font-weight: bold;
@@ -132,4 +133,15 @@ pre {
     font-family: none;
     font-variant: none;
     font-size: medium;
+}
+footer{
+    position: fixed;
+    height: 101%;
+    width: 10%;
+    left: 90%;
+    display: inline;
+}
+footer * {
+    display: block;
+    margin-left: 10px;
 }
